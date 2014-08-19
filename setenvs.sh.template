@@ -1,0 +1,13 @@
+#!/bin/bash
+export APP_CONFIG="development"
+export DEBUG=True
+
+# example: postgresql://matt:magic45%@localhost/pcf
+export DATABASE_URL=''
+export SECRET_KEY='developer key'
+export CELERY_BROKER_URL='redis://localhost:6379/0'
+export CELERY_RESULT_BACKEND='redis://localhost:6379/0'
+
+# Twilio settings
+export TWILIO_ACCOUNT_SID=''
+export TWILIO_AUTH_TOKEN=''
